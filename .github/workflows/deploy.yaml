@@ -9,16 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: Use Node.js 18
-      uses: actions/setup-node@v3
-      with:
-        node-version: 18
-    - run: npm install
-    - run: npm start
     - name: Publish to Distributed Press
       uses: hyphacoop/actions-distributed-press@v1.1.0
       with:
-        publish_dir: out
+        publish_dir: "."
         dp_url: https://api.distributed.press
         refresh_token: ${{ secrets.DISTPRESS_TOKEN }}
-        site_url: docs.distributed.press
+        site_url: lindz.demo

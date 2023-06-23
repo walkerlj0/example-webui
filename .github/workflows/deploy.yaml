@@ -1,4 +1,4 @@
-name: "Publish GitHub Action"
+name: "Publish to Distributed Press"
 on:
   push:
     branches:

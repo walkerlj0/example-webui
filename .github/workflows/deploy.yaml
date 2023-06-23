@@ -15,7 +15,7 @@ jobs:
         publish_dir: "."
         dp_url: https://api.distributed.press
         refresh_token: ${{ secrets.DISTPRESS_TOKEN }}
-        site_url: lindz.demo
+        site_url: distpress.walkerweb.me
         deploy_http: true
         deploy_hyper: true
         deploy_ipfs: true

@@ -4,4 +4,5 @@ An example Web Page with basic HTML, CSS, and Vanilla JS to test out WACZ Embeds
 To test out Locally
 1. Clone the repo
 2. Switch into the root directory and run `npm install`
-3. Serve the site locally by running `npm start
+3. Serve the site locally by running `npm start`
+4. Open a browser and type `localhost:3000` in the URL field
